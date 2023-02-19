@@ -1,0 +1,3 @@
+import Foundation
+
+GenerateCommand.main()
