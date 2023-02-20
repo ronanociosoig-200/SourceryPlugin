@@ -29,7 +29,7 @@ Once updated, run `tuist fetch` to install it.
 
 The plugin generates all the paths for all the sources based on iterating over a target's dependencies. Then post generation, it inserts the `@testable import` for each dependency. 
 
-It makes an assumption that all the modules are under a path ./Core and that all the feature modules are under ./Features, and that no feature module can depend on another feature module. This is just a proof of concept and if you want to use it,  
+It makes an assumption that all the modules are under a path ./Core and that all the feature modules are under ./Features, and that no feature module can depend on another feature module. This is just a proof of concept and if you want to use it you will have to update some of the constants defined at the top of `Sources/TuistSourceryPlugin/Commands/GenerateCommand.swift`
 
 ### Arguments
 
