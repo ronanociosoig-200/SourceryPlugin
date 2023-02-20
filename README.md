@@ -18,7 +18,14 @@ In the example project `Home` has a dependency on `Common`, and therefore it wil
 
 ## Usage
 
-The plugin needs to be defined in the [Config.swift file](https://docs.tuist.io/plugins/using-plugins) and then run `tuist fetch` to install it.
+The plugin needs to be defined in the [Config.swift file](https://docs.tuist.io/plugins/using-plugins).
+
+```
+let config = Config(
+    plugins: [.git(url: "https://github.com/ronanociosoig-200/SourceryPlugin", tag: "0.1.0")]
+)
+```
+Once updated, run `tuist fetch` to install it.
 
 The plugin generates all the paths for all the sources based on iterating over a target's dependencies. Then post generation, it inserts the `@testable import` for each dependency. 
 
