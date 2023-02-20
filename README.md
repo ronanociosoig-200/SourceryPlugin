@@ -1,7 +1,7 @@
 
 # Tuist Sourcery plugin
 
-A plugin that extends [Tuist](https://tuist.io) and calls [Sourcery](https://github.com/krzysztofzablocki/Sourcery) for a given module.
+A plugin that extends [Tuist](https://tuist.io) and calls [Sourcery](https://github.com/krzysztofzablocki/Sourcery) for a given module. Sourcery needs to be installed: `brew install sourcery`
 
 
 For example: 
