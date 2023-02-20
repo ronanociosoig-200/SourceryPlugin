@@ -8,6 +8,11 @@ For example:
 tuist sorcery --project-path <path/to/project> --template-path SourceryTemplates --output-path Tests/Mocks Home
 ``` 
 
+When run in the same directory as the project, a directory exists named SourceryTemplates that contains the stencil, then the command can be shortened to
+```
+tuist sourcery Home
+```
+
 In the example project `Home` has a dependency on `Common`, and therefore it will be included in the sources passed to Sourcery. 
 
 ## Usage
