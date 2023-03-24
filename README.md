@@ -52,3 +52,7 @@ This will generate the mocks at Pokedex/Features/Home/Tests/Mocks/AutoMockable.g
 As this source file is already added to the repo, delete it, and note that it is generated again. 
 
 The binary generated is here: DerivedData/SourceryPlugin/Build/Products/Debug
+
+Local plugins can also be tested using this syntax: 
+
+`tuist plugin run tuist-sourcery --path ../SourceryPlugin Home`
