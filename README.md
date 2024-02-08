@@ -6,7 +6,7 @@ A plugin that extends [Tuist](https://tuist.io) and calls [Sourcery](https://git
 
 For example: 
 ```
-tuist sorcery --project-path <path/to/project> --template-path SourceryTemplates --output-path Tests/Mocks Home
+tuist sourcery --project-path <path/to/project> --template-path SourceryTemplates --output-path Tests/Mocks Home
 ``` 
 
 When run in the same directory as the project, a directory exists named SourceryTemplates that contains the stencil, then the command can be shortened to
